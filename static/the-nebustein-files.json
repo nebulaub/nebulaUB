@@ -1,0 +1,380 @@
+{
+  "accountId": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+  "speedInsights": {
+    "id": "0Essxggo7vAlfDS5d06Sui5FvfX",
+    "hasData": false
+  },
+  "autoExposeSystemEnvs": true,
+  "autoAssignCustomDomains": true,
+  "autoAssignCustomDomainsUpdatedBy": "system",
+  "buildCommand": "npm start",
+  "createdAt": 1772674597255,
+  "crons": {
+    "enabledAt": 1772674625313,
+    "disabledAt": null,
+    "updatedAt": 1778685733573,
+    "deploymentId": "dpl_CSHCQNfpuvHGMuYyNSNHiPr9P1aM",
+    "definitions": []
+  },
+  "deploymentExpiration": {
+    "expirationDays": 180,
+    "expirationDaysProduction": 365,
+    "expirationDaysCanceled": 30,
+    "expirationDaysErrored": 90,
+    "deploymentsToKeep": 10
+  },
+  "devCommand": null,
+  "directoryListing": false,
+  "env": [],
+  "framework": "node",
+  "gitForkProtection": true,
+  "gitLFS": false,
+  "id": "prj_0Tc3JAaJMSv90ol3DaTpQqcnwNH9",
+  "installCommand": "npm i",
+  "lastRollbackTarget": null,
+  "lastAliasRequest": null,
+  "name": "nebula",
+  "nodeVersion": "24.x",
+  "outputDirectory": null,
+  "productionDeploymentsFastLane": true,
+  "publicSource": null,
+  "defaultResourceConfig": {
+    "fluid": true,
+    "functionDefaultRegions": [
+      "iad1"
+    ],
+    "functionDefaultTimeout": 300,
+    "functionDefaultMemoryType": "standard",
+    "functionZeroConfigFailover": false,
+    "elasticConcurrencyEnabled": false
+  },
+  "resourceConfig": {
+    "fluid": true,
+    "functionDefaultRegions": [
+      "iad1"
+    ]
+  },
+  "rootDirectory": null,
+  "serverlessFunctionRegion": "iad1",
+  "sourceFilesOutsideRootDirectory": true,
+  "ssoProtection": {
+    "deploymentType": "all_except_custom_domains"
+  },
+  "updatedAt": 1779285400266,
+  "live": false,
+  "enableExternalRewriteCaching": false,
+  "gitComments": {
+    "onCommit": false,
+    "onPullRequest": true
+  },
+  "gitProviderOptions": {
+    "createDeployments": "enabled"
+  },
+  "webAnalytics": {
+    "id": "S8naFlhr1vyZMzbHyJZxcU8bc",
+    "enabledAt": 1776264391890,
+    "hasData": true
+  },
+  "oidcTokenConfig": {
+    "enabled": true,
+    "issuerMode": "team"
+  },
+  "hasDeployments": true,
+  "link": {
+    "type": "github",
+    "repo": "nebulaUB",
+    "repoId": 1219070325,
+    "org": "nebulaub",
+    "repoOwnerId": 278195122,
+    "gitCredentialId": "cred_fc1b2a3609e4bd8804d5035be95e72019a118154",
+    "productionBranch": "main",
+    "createdAt": 1778685680006,
+    "updatedAt": 1778685680006,
+    "deployHooks": []
+  },
+  "latestDeployments": [
+    {
+      "alias": [
+        "nebula-bbashor-1762s-projects.vercel.app",
+        "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      ],
+      "aliasAssigned": null,
+      "automaticAliases": [
+        "nebula-bbashor-1762s-projects.vercel.app",
+        "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      ],
+      "builds": [],
+      "createdAt": 1779285399831,
+      "createdIn": "sfo1",
+      "creator": {
+        "uid": "cajtJUwwHGX8HfCH4433NtMJ",
+        "email": "bbashor@g.horrycountyschools.net",
+        "username": "solocentralsucks",
+        "githubLogin": "wizardsolo"
+      },
+      "deploymentHostname": "nebula-bdjjhwplb-bbashor-1762s-projects",
+      "forced": false,
+      "id": "dpl_BTUgxwmGfDLgwjkHr1uGSY5596ac",
+      "meta": {
+        "githubCommitAuthorName": "qatual",
+        "githubCommitAuthorEmail": "qatual@qatual.com",
+        "githubCommitMessage": "Update index.html",
+        "githubCommitOrg": "nebulaub",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "nebulaUB",
+        "githubCommitSha": "185d6bab944f634e1a2bf7d6a187b9ee84b125f1",
+        "githubDeployment": "1",
+        "githubOrg": "nebulaub",
+        "githubRepo": "nebulaUB",
+        "githubRepoOwnerType": "Organization",
+        "githubCommitRepoId": "1219070325",
+        "githubRepoId": "1219070325",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "wizardsolo",
+        "githubCommitVerification": "verified",
+        "repoPushedAt": "1779285389000",
+        "branchAlias": "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      },
+      "name": "nebula",
+      "plan": "hobby",
+      "private": true,
+      "readyState": "BUILDING",
+      "target": "production",
+      "teamId": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+      "type": "LAMBDAS",
+      "url": "nebula-bdjjhwplb-bbashor-1762s-projects.vercel.app",
+      "userId": "cajtJUwwHGX8HfCH4433NtMJ",
+      "withCache": false,
+      "buildingAt": 1779285414832,
+      "readyAt": 1779285414832,
+      "previewCommentsEnabled": true,
+      "oidcTokenClaims": {
+        "sub": "owner:bbashor-1762s-projects:project:nebula:environment:production",
+        "iss": "https://oidc.vercel.com/bbashor-1762s-projects",
+        "scope": "owner:bbashor-1762s-projects:project:nebula:environment:production",
+        "aud": "https://vercel.com/bbashor-1762s-projects",
+        "owner": "bbashor-1762s-projects",
+        "owner_id": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+        "project": "nebula",
+        "project_id": "prj_0Tc3JAaJMSv90ol3DaTpQqcnwNH9",
+        "environment": "production",
+        "plan": "hobby"
+      }
+    },
+    {
+      "alias": [
+        "nebula-bbashor-1762s-projects.vercel.app",
+        "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      ],
+      "aliasAssigned": null,
+      "automaticAliases": [
+        "nebula-bbashor-1762s-projects.vercel.app",
+        "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      ],
+      "builds": [],
+      "createdAt": 1779113226368,
+      "createdIn": "sfo1",
+      "creator": {
+        "uid": "cajtJUwwHGX8HfCH4433NtMJ",
+        "email": "bbashor@g.horrycountyschools.net",
+        "username": "solocentralsucks",
+        "githubLogin": "solual"
+      },
+      "deploymentHostname": "nebula-nedaihxij-bbashor-1762s-projects",
+      "forced": false,
+      "id": "dpl_4YfTyQwisEcfBDct2TaQjocdccpH",
+      "meta": {
+        "githubCommitAuthorName": "qatual",
+        "githubCommitAuthorEmail": "hi@solocentral.org",
+        "githubCommitMessage": "dono dono",
+        "githubCommitOrg": "nebulaub",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "nebulaUB",
+        "githubCommitSha": "1dfa41f4609dab0c2cf8c7340183610ba3b67a57",
+        "githubDeployment": "1",
+        "githubOrg": "nebulaub",
+        "githubRepo": "nebulaUB",
+        "githubRepoOwnerType": "Organization",
+        "githubCommitRepoId": "1219070325",
+        "githubRepoId": "1219070325",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "solual",
+        "githubCommitVerification": "verified",
+        "repoPushedAt": "1779113223000",
+        "branchAlias": "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      },
+      "name": "nebula",
+      "plan": "hobby",
+      "private": true,
+      "readyState": "ERROR",
+      "target": "production",
+      "teamId": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+      "type": "LAMBDAS",
+      "url": "nebula-nedaihxij-bbashor-1762s-projects.vercel.app",
+      "userId": "cajtJUwwHGX8HfCH4433NtMJ",
+      "withCache": false,
+      "buildingAt": 1779114990585,
+      "readyAt": 1779117726209,
+      "previewCommentsEnabled": true,
+      "oidcTokenClaims": {
+        "sub": "owner:bbashor-1762s-projects:project:nebula:environment:production",
+        "iss": "https://oidc.vercel.com/bbashor-1762s-projects",
+        "scope": "owner:bbashor-1762s-projects:project:nebula:environment:production",
+        "aud": "https://vercel.com/bbashor-1762s-projects",
+        "owner": "bbashor-1762s-projects",
+        "owner_id": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+        "project": "nebula",
+        "project_id": "prj_0Tc3JAaJMSv90ol3DaTpQqcnwNH9",
+        "environment": "production",
+        "plan": "hobby"
+      }
+    }
+  ],
+  "targets": {
+    "production": {
+      "alias": [
+        "nebula-bbashor-1762s-projects.vercel.app",
+        "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      ],
+      "aliasAssigned": null,
+      "automaticAliases": [
+        "nebula-bbashor-1762s-projects.vercel.app",
+        "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      ],
+      "builds": [],
+      "createdAt": 1779285399831,
+      "createdIn": "sfo1",
+      "creator": {
+        "uid": "cajtJUwwHGX8HfCH4433NtMJ",
+        "email": "bbashor@g.horrycountyschools.net",
+        "username": "solocentralsucks",
+        "githubLogin": "wizardsolo"
+      },
+      "deploymentHostname": "nebula-bdjjhwplb-bbashor-1762s-projects",
+      "forced": false,
+      "id": "dpl_BTUgxwmGfDLgwjkHr1uGSY5596ac",
+      "meta": {
+        "githubCommitAuthorName": "qatual",
+        "githubCommitAuthorEmail": "qatual@qatual.com",
+        "githubCommitMessage": "Update index.html",
+        "githubCommitOrg": "nebulaub",
+        "githubCommitRef": "main",
+        "githubCommitRepo": "nebulaUB",
+        "githubCommitSha": "185d6bab944f634e1a2bf7d6a187b9ee84b125f1",
+        "githubDeployment": "1",
+        "githubOrg": "nebulaub",
+        "githubRepo": "nebulaUB",
+        "githubRepoOwnerType": "Organization",
+        "githubCommitRepoId": "1219070325",
+        "githubRepoId": "1219070325",
+        "githubRepoVisibility": "public",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "wizardsolo",
+        "githubCommitVerification": "verified",
+        "repoPushedAt": "1779285389000",
+        "branchAlias": "nebula-git-main-bbashor-1762s-projects.vercel.app"
+      },
+      "name": "nebula",
+      "plan": "hobby",
+      "private": true,
+      "readyState": "BUILDING",
+      "target": "production",
+      "teamId": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+      "type": "LAMBDAS",
+      "url": "nebula-bdjjhwplb-bbashor-1762s-projects.vercel.app",
+      "userId": "cajtJUwwHGX8HfCH4433NtMJ",
+      "withCache": false,
+      "buildingAt": 1779285414832,
+      "readyAt": 1779285414832,
+      "previewCommentsEnabled": true,
+      "oidcTokenClaims": {
+        "sub": "owner:bbashor-1762s-projects:project:nebula:environment:production",
+        "iss": "https://oidc.vercel.com/bbashor-1762s-projects",
+        "scope": "owner:bbashor-1762s-projects:project:nebula:environment:production",
+        "aud": "https://vercel.com/bbashor-1762s-projects",
+        "owner": "bbashor-1762s-projects",
+        "owner_id": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+        "project": "nebula",
+        "project_id": "prj_0Tc3JAaJMSv90ol3DaTpQqcnwNH9",
+        "environment": "production",
+        "plan": "hobby"
+      }
+    },
+    "preview": {
+      "alias": [
+        "nebula-git-vercel-install-vercel-db75e7-bbashor-1762s-projects.vercel.app"
+      ],
+      "aliasAssigned": 1778004550811,
+      "aliasError": null,
+      "automaticAliases": [
+        "nebula-git-vercel-install-vercel-db75e7-bbashor-1762s-projects.vercel.app"
+      ],
+      "builds": [],
+      "createdAt": 1778004523250,
+      "createdIn": "sfo1",
+      "creator": {
+        "uid": "cajtJUwwHGX8HfCH4433NtMJ",
+        "email": "bbashor@g.horrycountyschools.net",
+        "username": "solocentralsucks",
+        "githubLogin": "vercel[bot]"
+      },
+      "deploymentHostname": "nebula-n0uj4hwgk-bbashor-1762s-projects",
+      "forced": false,
+      "id": "dpl_B9AdiUAacnTA4fZmjNKgAVqC3oWn",
+      "meta": {
+        "githubCommitAuthorName": "Vercel",
+        "githubCommitAuthorEmail": "vercel[bot]@users.noreply.github.com",
+        "githubCommitMessage": "Install Vercel Web Analytics\n\n# Vercel Web Analytics Implementation\n\nSuccessfully installed and configured Vercel Web Analytics for this static HTML website.\n\n## Implementation Details\n\nThis project is a static HTML website (no build system or package manager), so I implemented Vercel Web Analytics using the HTML5/vanilla JavaScript approach as per the official Vercel documentation.\n\n### Changes Made\n\n**Added Vercel Analytics script to 7 key HTML pages:**\n\n1. `index.html` - Main landing page\n2. `games.html` - Games listing page  \n3. `class.html` - Class session page\n4. `admin.html` - Admin page\n5. `settings.html` - Settings page\n6. `search.html` - Search page\n7. `t9os.html` - T9OS page\n\n**Implementation approach:**\n\nFor each page, I added the following code in the `<head>` section immediately after the `<title>` tag:\n\n```html\n<script>\n    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };\n</script>\n<script defer src=\"/_vercel/insights/script.js\"></script>\n```\n\nThis foll",
+        "githubCommitOrg": "xhbshefj",
+        "githubCommitRef": "vercel/install-vercel-web-analytics-x0zgyg",
+        "githubCommitRepo": "t9os.gay.gov",
+        "githubCommitSha": "7a83247d7b91e44bf9d5f2de2cf04728e5b956a6",
+        "githubDeployment": "1",
+        "githubOrg": "xhbshefj",
+        "githubRepo": "t9os.gay.gov",
+        "githubRepoOwnerType": "User",
+        "githubCommitRepoId": "1150980265",
+        "githubRepoId": "1150980265",
+        "githubRepoVisibility": "private",
+        "githubHost": "github.com",
+        "githubCommitAuthorLogin": "vercel[bot]",
+        "githubPrId": "3",
+        "githubCommitVerification": "unverified",
+        "repoPushedAt": "1778004520000",
+        "branchAlias": "nebula-git-vercel-install-vercel-db75e7-bbashor-1762s-projects.vercel.app"
+      },
+      "name": "nebula",
+      "plan": "hobby",
+      "private": true,
+      "readyState": "READY",
+      "readySubstate": "STAGED",
+      "target": null,
+      "teamId": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+      "type": "LAMBDAS",
+      "url": "nebula-n0uj4hwgk-bbashor-1762s-projects.vercel.app",
+      "userId": "cajtJUwwHGX8HfCH4433NtMJ",
+      "withCache": false,
+      "buildingAt": 1778004524931,
+      "readyAt": 1778004550593,
+      "previewCommentsEnabled": true,
+      "oidcTokenClaims": {
+        "sub": "owner:bbashor-1762s-projects:project:nebula:environment:preview",
+        "iss": "https://oidc.vercel.com/bbashor-1762s-projects",
+        "scope": "owner:bbashor-1762s-projects:project:nebula:environment:preview",
+        "aud": "https://vercel.com/bbashor-1762s-projects",
+        "owner": "bbashor-1762s-projects",
+        "owner_id": "team_08l9UA4KQslDRQFlcXNjMv9Y",
+        "project": "nebula",
+        "project_id": "prj_0Tc3JAaJMSv90ol3DaTpQqcnwNH9",
+        "environment": "preview",
+        "plan": "hobby"
+      }
+    }
+  },
+  "features": {
+    "webAnalytics": true
+  },
+  "protectedSourcemaps": false
+}
